@@ -1,7 +1,7 @@
 BOARDS = {
     'arduino' : {
         'digital' : tuple(x for x in range(14)),
-        'analog' : tuple(x for x in range(6)),
+        'analog' : tuple(x for x in range(8)),
         'pwm' : (3, 5, 6, 9, 10, 11),
         #'servo' : (), # 2.2 specs
         #'i2c' : (), # 2.3 specs
